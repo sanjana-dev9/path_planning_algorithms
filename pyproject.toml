@@ -1,0 +1,22 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "path_planning_algorithms"
+version = "0.0.1"
+description = "Visualise how different algorithms navigate in a map"
+authors = ["Sanjana Kumari <sanjana01999@gmail.com>"]
+readme = "README.md"
+packages = [{include = "path_planning_algorithms"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.4"
+
+[tool.poetry.group.dev.dependencies]
+
+
+[tool.poetry.scripts]
+# CLI entry points if needed
+run = "path_planning_algorithms.cli:main"
