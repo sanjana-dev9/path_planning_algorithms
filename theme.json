@@ -1,0 +1,25 @@
+{
+	"drop_down_menu": {
+		"misc": {
+			"expand_direction": "up",
+			"border_width": "1",
+			"shadow_width": "1"
+		},
+		"colours": {
+			"dark_bg": "#25292e",
+			"normal_border": "#999999",
+			"disabled_dark_bg": "#2e2e2e",
+			"disabled_border": "#4d4d4d"
+		}
+	},
+	"drop_down_menu.#selected_option": {
+		"misc": {
+			"border_width": "1",
+			"open_button_width": "10"
+		},
+		"colours": {
+			"normal_bg": "#45494e",
+			"hovered_bg": "#55595e"
+		}
+	}
+}
