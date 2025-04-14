@@ -624,15 +624,6 @@ def main():
         buttons.append(goal_button)
         button_x += BUTTON_WIDTH + button_spacing
         
-        # Start Planning button
-        plan_button = Button(
-            button_x, button_row2_y, BUTTON_WIDTH, BUTTON_HEIGHT,
-            (50, 50, 150), (70, 70, 200), "Find Path", BUTTON_TEXT_COLOR,
-            start_planning
-        )
-        buttons.append(plan_button)
-        button_x += BUTTON_WIDTH + button_spacing
-        
         # Reset Planning button
         reset_plan_button = Button(
             button_x, button_row2_y, BUTTON_WIDTH, BUTTON_HEIGHT,
@@ -675,6 +666,16 @@ def main():
                 next_step
             )
             buttons.append(next_button)
+        
+        button_x += BUTTON_WIDTH + button_spacing
+        
+        # Start Planning button
+        plan_button = Button(
+            button_x, button_row2_y, BUTTON_WIDTH, BUTTON_HEIGHT,
+            (50, 50, 150), (70, 70, 200), "Find Path", BUTTON_TEXT_COLOR,
+            start_planning
+        )
+        buttons.append(plan_button)
         
     # Initialize buttons
     update_buttons()

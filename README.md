@@ -43,5 +43,5 @@ Visualise how different algorithms navigate in a map
 1. Dijkstra
 2. A\* Search
 3. RRT (Rapidly-exploring Random Tree)
-4. Nav2 package
-5.
+4. Depth first search
+5. Breadth first search
