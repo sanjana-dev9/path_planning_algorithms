@@ -56,8 +56,8 @@ class PathFinder:
         self.rrt_nodes = []         # List of nodes in the RRT
         self.rrt_edges = []         # List of edges in the RRT
         self.rrt_step_size = 2      # Step size for RRT extension (in cells)
-        self.rrt_goal_sample_rate = 0.1  # Probability of sampling goal
-        self.rrt_max_iterations = 1000   # Maximum iterations for RRT
+        self.rrt_goal_sample_rate = 0.5  # Probability of sampling goal
+        self.rrt_max_iterations = 2000   # Maximum iterations for RRT
         
         # Potential Field parameters
         self.potential_field = None  # Grid of potential values

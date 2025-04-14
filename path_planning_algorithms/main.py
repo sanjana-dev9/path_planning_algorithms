@@ -420,7 +420,7 @@ def main():
     
     # Make window resizable
     screen = pygame.display.set_mode((WIDTH, HEIGHT + TOOLBAR_HEIGHT), pygame.RESIZABLE)
-    pygame.display.set_caption("Path Planning with Dijkstra's Algorithm")
+    pygame.display.set_caption("Path Planning Algorithms for Static Maps")
 
     # Create a UI Manager
     ui_manager = pygame_gui.UIManager((WIDTH, HEIGHT + TOOLBAR_HEIGHT), 'theme.json')
