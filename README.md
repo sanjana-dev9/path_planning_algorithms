@@ -2,11 +2,12 @@
 
 Visualise how different algorithms navigate in a map
 
-[Youtube] (https://www.youtube.com/watch?v=UtOh1nryxEI)
+[Youtube](https://www.youtube.com/watch?v=UtOh1nryxEI)
 
-[Demo video.webm](https://github.com/user-attachments/assets/d39e2a8b-136d-4b94-9bf7-a65268ce8e73)
+[Demo video.webm](https://github.com/user-attachments/assets/ec576a18-f317-4d5e-9372-49aa516dc872)
 
 # Setup
+
 
 -   python or C++
 -   Initialise poetry: `poetry init`
