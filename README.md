@@ -2,10 +2,13 @@
 
 Visualise how different algorithms navigate in a map
 
+[Demo video.webm](https://github.com/user-attachments/assets/d39e2a8b-136d-4b94-9bf7-a65268ce8e73)
+
 # Setup
 
 -   python or C++
 -   Initialise poetry: `poetry init`
+
 -   To activate the virtual env created by poetry: `poetry shell`
 -   Poetry to automatically update the packages
 
