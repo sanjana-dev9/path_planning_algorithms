@@ -2,6 +2,8 @@
 
 Visualise how different algorithms navigate in a map
 
+[Youtube] (https://www.youtube.com/watch?v=UtOh1nryxEI)
+
 [Demo video.webm](https://github.com/user-attachments/assets/d39e2a8b-136d-4b94-9bf7-a65268ce8e73)
 
 # Setup
@@ -36,7 +38,11 @@ Visualise how different algorithms navigate in a map
 
 ## ROS2:
 
-1. Integrate turtlebot
+[Github link for turtlesim](https://github.com/sanjana-dev9/turtlesim)
+
+[Github link for turtlebot](https://github.com/sanjana-dev9/turtlebot)
+
+1. Integrate turtlesim and turtelboot
 2. Support ROS2
 3. Visualise ROS2 SLAM packages
    <br>
@@ -48,3 +54,4 @@ Visualise how different algorithms navigate in a map
 3. RRT (Rapidly-exploring Random Tree)
 4. Depth first search
 5. Breadth first search
+6. Potential field
